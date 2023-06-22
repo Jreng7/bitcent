@@ -2,15 +2,18 @@
   "name": "curso_nodejs_edson-maia",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Curso de Node.JS (CRUD) canal 'Edson Maia' ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
   "author": "waydev",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
