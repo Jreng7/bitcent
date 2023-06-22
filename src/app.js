@@ -1,4 +1,5 @@
 import express from 'express';
+
 const app = express();
 
 // Criar rota padrão ou raiz.
