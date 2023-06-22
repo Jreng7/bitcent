@@ -1,6 +1,5 @@
 import express from 'express';
-
-const app = expre
+const app = express();
 
 // Criar rota padrão ou raiz.
 app.get('/', (req, res) => {

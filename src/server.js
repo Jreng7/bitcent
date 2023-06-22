@@ -1,5 +1,8 @@
 import app from './app';
 
-const PORT = 7510;
+const PORT = 3000;
 
-app.listen(PORT);
+// Escutar a porta 3000
+app.listen(PORT, () => {
+  console.log('Servidor Online.')
+})
